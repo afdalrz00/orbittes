@@ -1,0 +1,13 @@
+clc
+clear
+
+x = [1 : 5];
+y = 2.*(x.^2);
+
+plot (x,y,'-raquare','LineWidth',2)
+
+figure(1)
+grid on
+xlabel('parameter kecepatan');
+ylabel('Respon');
+title('Grafik fungsi'); 
